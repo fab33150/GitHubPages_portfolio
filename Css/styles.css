@@ -11,21 +11,48 @@ body {
     flex-direction: column;
 }
 
+/* ---Nav Items--- */
+
 nav {
     display: flex;
-    justify-content: inline;
+    justify-content: inline-block;
     padding: 10px;
-}
 
+}
+    
 
 .nav-container {
-    width: 100%;
     display: flex;
     list-style-type: none;
     margin-left: auto;
     justify-content: flex-end;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .nav-item {
     margin: 10px;
+    text-decoration: none;
+}
+
+/* ---About me --- */
+
+.about-me-container {
+    display: flex;
+    margin-top: 25px;
+}
+
+.about-me-text {
+    margin-right: 10px;
+}
+
+.about-me {
+    margin-bottom: 10px;
+}
+img {
+    border-radius: 50%;
 }
