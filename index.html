@@ -12,7 +12,7 @@
         <nav>
             <h2>Fabrice Innocent</h2>
             <ul class="nav-container">
-                <li class="nav-item"><a href="#about-me">About Me</a></li>
+                <li class="nav-item"><a href="#about">About Me</a></li>
                 <li class="nav-item"><a href="#projects">Projects</a></li>
                 <li class="nav-item"><a href="#skills">Skills</a></li>
                 <li class="nav-item"><a href="#contact-me">Contact Me</a></li>
@@ -21,7 +21,7 @@
     
 
         <main>
-            <section>
+            <section id="about">
                 <div class="about-me-container">
                     <div class="about-me-text">
                         <h2 class="about-me">About Me</h2>
@@ -31,29 +31,38 @@
             </div>
             </section>
     
-        <section>
+        <section id="projects">
             <h2>Projects</h2> 
-            <img src="img/BookList.png" />
-            <div>
-                <h4>BookList Project</h4>
+            <details>
+                <summary class="project-title">
+                    <h3>BookList Project</h3>
+                </summary>
+                <img src="img/BookList.png" class="project-image" />
                 <p>In this project I created a dynamic book list app that allows the user to create, add and delete book titles.</p>
-            </div>
+                    
+                </details>
 
-            <img src="img/Form.png"/> 
-            <div>
-                <h4>Form Project</h4>
-                <p>In this project I created a contact and feedback form that would enable users to leave feedback and their peronsal info to be contacted.</p>
+                <details>
+                    <summary class="project-title">
+                        <h3>Form Project</h3>
+                    </summary>
+                    <img src="img/Form.png"/> 
+                    <p class="project-description">In this project I created a contact and feedback form that would enable users to leave feedback and their peronsal info to be contacted.</p>
+                
+                </details>
 
-            </div>
-
-                <img src="img/QuoteMachine.png"/>
-                <div>
-                    <h4>Random Quote Machine Project</h4>
-                    <p>In this project you are able to cylce through random quotes.</p>
-                </div>
+                <details>
+                    <summary class="project-title">
+                        <h3>Random Quote Machine Project</h3>
+                    </summary>
+                    <img src="img/QuoteMachine.png" class="project-image"/>
+                    <p class="project-description">In this project you are able to cylce through random quotes.</p>
+                
+            </details>
+        
         </section>
     
-    <section>
+    <section id="skills">
         <h2>Skills</h2>
         <div>
             <i class="fab fa-html5"></i>

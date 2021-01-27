@@ -39,6 +39,9 @@ a {
     text-decoration: none;
 }
 
+section p {
+    font-size: 1.2rem;
+}
 /* ---About me --- */
 
 .about-me-container {
@@ -53,6 +56,27 @@ a {
 .about-me {
     margin-bottom: 10px;
 }
-img {
+ 
+.about-me-container img {
     border-radius: 50%;
 }
+
+/*--Project -- */
+
+details {
+    margin-bottom: 10px;
+}
+#projects h2 {
+    margin-bottom: 10px;
+}
+.project-title h3 {
+    display: inline;
+}
+
+.project-description {
+    margin: 10px;
+
+}
+  .project-image {
+    width: 75%;
+  }
