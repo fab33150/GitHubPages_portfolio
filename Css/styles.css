@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +11,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* ---Nav Items--- */
@@ -17,7 +20,7 @@ nav {
     display: flex;
     justify-content: inline-block;
     padding: 10px;
-
+    
 }
     
 
